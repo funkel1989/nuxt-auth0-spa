@@ -1,4 +1,5 @@
 const { resolve } = require('path')
+require('dotenv').config()
 
 module.exports = {
   rootDir: resolve(__dirname, '../..'),
@@ -9,8 +10,7 @@ module.exports = {
     { handler: require('../../') }
   ],
   auth0: {
-    domain: 'corocn-auth0-spa-module.auth0.com',
-    clientId: 'cRDXsLKe4W0nX5lbLss8BP4PkDhQunFR',
-    audience: 'http://localhost:3000/'
+    domain: process.env.AUTH0_DOMAIN,
+    client_id: process.env.AUTH0_CLIENT_ID
   }
 }

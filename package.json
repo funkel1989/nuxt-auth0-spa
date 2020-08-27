@@ -1,11 +1,11 @@
 {
-  "name": "auth0-spa-module",
-  "version": "0.0.8",
-  "description": "easy auth0-spa-js integration with Nuxt.js",
+  "name": "nuxt-auth0-spa",
+  "version": "0.1.0",
+  "description": "Simplified auth0-spa-js integration with Nuxt.js",
   "main": "lib/module.js",
-  "author": "corocn <crsk.plmzh@gmail.com>",
+  "author": "alanprivet <alannprivet@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/corocn/auth0-spa-module",
+  "repository": "https://github.com/alanprivet/nuxt-auth0-spa",
   "publishConfig": {
     "access": "public"
   },
@@ -21,11 +21,12 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "@auth0/auth0-spa-js": "^1.0.2"
+    "@auth0/auth0-spa-js": "^1.11.0"
   },
   "devDependencies": {
     "@nuxt/typescript": "^2.8.1",
-    "nuxt": "2.8.1",
+    "dotenv": "^8.2.0",
+    "nuxt": "^2.14.4",
     "standard-version": "latest"
   }
 }
