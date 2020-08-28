@@ -1,4 +1,4 @@
-# auth0-spa-module
+# nuxt-auth0-spa
 
 Simplifies [auth0-spa-js](https://github.com/auth0/auth0-spa-js) integration with Nuxt.js
 
