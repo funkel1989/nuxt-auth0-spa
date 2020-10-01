@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-auth0-js",
-  "version": "0.2.1",
+  "name": "@funkel1989/nuxt-auth0-js",
+  "version": "0.2.2",
   "description": "Simplified auth0-spa-js integration with Nuxt.js",
   "main": "lib/module.js",
   "author": "michael cavanaugh <funkel1989@gmail.com>",
