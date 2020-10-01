@@ -1,11 +1,11 @@
 {
-  "name": "nuxt-auth0-spa",
-  "version": "0.1.1",
+  "name": "nuxt-auth0-js",
+  "version": "0.2.1",
   "description": "Simplified auth0-spa-js integration with Nuxt.js",
   "main": "lib/module.js",
-  "author": "alanprivet <alannprivet@gmail.com>",
+  "author": "michael cavanaugh <funkel1989@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/alanprivet/nuxt-auth0-spa",
+  "repository": "https://github.com/funkel1989/nuxt-auth0-spa",
   "publishConfig": {
     "access": "public"
   },
